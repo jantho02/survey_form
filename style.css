@@ -4,14 +4,17 @@
     box-sizing: border-box;
 }
 
-
+html {
+    font-weight: 200;
+}
 
 body {
     display: block;
+    text-align: center;
     height: 100%;
     width: 100%;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'comic sans', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.4;
@@ -25,15 +28,21 @@ body {
     background-position: center;
 }
 
+form p {
+    text-align:left;
+    margin-bottom: .5rem;
+}
+
 #main {
     margin: auto;
-    width: 60%;
+    width: 64%;
     padding-top: 3.5rem;
 }   
 
 #intro {
     margin: 0 auto;
     text-align: center; 
+    font-weight: ;
 }
 
 div.intro {
@@ -46,19 +55,42 @@ div.intro p {
     margin-bottom: 2.5rem;
 }
 
+label, input[type=checkbox], input[type=radio] {
+    float: left;
+}
+
+.check-label, .radio-label {
+    padding-left: .5rem;
+
+}
+
+label[for="dropdown"], label[for="comments"], #name-label, #email-label, #number-label{
+    margin-bottom: .5rem;
+}
 
 
 form {
     background-color: rgba(27, 27, 50, 0.8);
+    width: 100%;
+    margin: 0 auto;
     padding: 2rem;
     min-width: 400px;
-    line-height: 1.4
+    max-width: 800px;
+    line-height: 1.4 
 }
+
 
 input[type=text], input[type=email], input[type=number], #dropdown, #comments {
     width: 100%;
     padding: 10px;
     border-radius: 4px;
+    margin: ;
+}
+
+
+
+span[id="commentfield"] {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif'
 }
 
 #submit-button {
@@ -69,7 +101,6 @@ input[type=text], input[type=email], input[type=number], #dropdown, #comments {
     padding: 1rem 0;
     background-color: #37af65;
     color: white;
-
 }
 
 
