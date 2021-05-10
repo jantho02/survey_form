@@ -68,7 +68,6 @@ label[for="dropdown"], label[for="comments"], #name-label, #email-label, #number
     margin-bottom: .5rem;
 }
 
-
 form {
     background-color: rgba(27, 27, 50, 0.8);
     width: 100%;
@@ -79,7 +78,6 @@ form {
     line-height: 1.4 
 }
 
-
 input[type=text], input[type=email], input[type=number], #dropdown, #comments {
     width: 100%;
     padding: 10px;
@@ -87,13 +85,7 @@ input[type=text], input[type=email], input[type=number], #dropdown, #comments {
     margin: ;
 }
 
-
-
-span[id="commentfield"] {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif'
-}
-
-#submit-button {
+#submit {
     display: flex;
     justify-content: center;
     width: 100%;
